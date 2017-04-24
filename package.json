@@ -1,0 +1,25 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroBinbin/XXX.git"
+  },
+  "keywords": [
+    "xxx"
+  ],
+  "author": "xuexf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeroBinbin/XXX/issues"
+  },
+  "homepage": "https://github.com/ZeroBinbin/XXX#readme"
+}
