@@ -12,7 +12,8 @@ var UglifyJsPlugin = new webpack.optimize.UglifyJsPlugin({
 module.exports = {
     plugins: PROD ? [ UglifyJsPlugin ]:[],
     entry : {
-        index : [path.resolve(__dirname ,'./src/index.js')]
+        index : path.resolve(__dirname ,'./src/index.js') ,
+        domReady : path.resolve(__dirname ,'./src/domReady.js')
     } ,
     module : {
         loaders : [
@@ -25,7 +26,7 @@ module.exports = {
     },
     output : {
         libraryTarget: 'umd',
-        filename: PROD? 'index.min.js':'index.js',
+        filename: PROD? '[name].min.js':'[name].js',
         path: path.resolve(__dirname , './dist')
     },
     resolve : {
