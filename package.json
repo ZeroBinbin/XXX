@@ -1,11 +1,8 @@
 {
-  "name": "xxx",
+  "name": "xxx-xxx-xxx",
   "version": "1.0.0",
-  "description": "",
+  "description": "XXX",
   "main": "./dist/index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "build": "webpack && webpack -p"
   },
@@ -17,6 +14,15 @@
     "xxx"
   ],
   "author": "xuexf",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "babel-core" : "^6.24.1",
+    "babel-preset-es2015" : "^6.24.1",
+    "babel-loader" : "^7.0.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ZeroBinbin/XXX/issues"

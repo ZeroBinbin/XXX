@@ -12,7 +12,6 @@ class XXX {
 
     }
     //静态方法
-
     /**
      * 无冲突处理方法
      * @returns {XXX}
@@ -21,12 +20,6 @@ class XXX {
         window.XXX = _XXX;
         return XXX
     }
-
-    /**
-     * 对象扩展
-     */
-    static extend : extend
-
     /**
      * 数组化
      */
@@ -53,11 +46,10 @@ class XXX {
         }
     }
 
-    /**
-     * domReady
-     */
-    static domReady : domReady
+
 }
+XXX.extend = extend;
+XXX.domReady = domReady;
 export { XXX }
 
 //语言扩展
